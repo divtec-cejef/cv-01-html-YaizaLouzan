@@ -15,8 +15,10 @@ header {
 }
 
 body {
-    background-color: #CC978E;
+    /*background-color: #CC978E;*/
+    background-image: url("img/fond.png");
     text-align: center;
+    background-size: cover;
 }
 
 h1 , h2 {
@@ -24,18 +26,15 @@ h1 , h2 {
     color: #4f4f4f;
 }
 
-p, li {
-    font-family: Montserrat, serif;
-    font-size: 1rem;
+.description {
+    font-family: Algerian, serif;
+    font-size: 2em;
+    color: #2b0036;
 }
 
-.icone {
-    width: 400px;
-    border: 10px solid #000000;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p, ul {
+    font-family: Montserrat, serif;
+    font-size: 1rem;
 }
 
 ul {
@@ -52,6 +51,16 @@ a:hover {
     background-color: pink;
     color:black;
     animation: ease-in-out;
+}
+
+.icone {
+    width: 400px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+: black;
 }
 
 .icone:hover {
