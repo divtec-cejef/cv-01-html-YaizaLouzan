@@ -16,25 +16,26 @@ header {
 
 body {
     /*background-color: #CC978E;*/
-    background-image: url("img/fond.png");
+    background-image: url("img/tigrou.jpg");
     text-align: center;
     background-size: cover;
 }
 
 h1 , h2 {
     font-family: Junegull, serif;
-    color: #4f4f4f;
+    color: #CC978E;
 }
 
 .description {
     font-family: Algerian, serif;
     font-size: 2em;
-    color: #2b0036;
+    color: #ddc1e0;
 }
 
 p, ul {
     font-family: Montserrat, serif;
     font-size: 1rem;
+    color: white;
 }
 
 ul {
@@ -43,7 +44,7 @@ ul {
 }
 
 a {
-    color: #17282d;
+    color: #35412f;
     font-size: 1.5rem;
 }
 
@@ -60,7 +61,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-: black;
+    box-shadow: 10px 5px 5px black;
 }
 
 .icone:hover {
