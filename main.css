@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+Blanc: #ffffff
+Noir: #000000
+Vert: #c0bda5
+Rose: #CC978E
+Violet: #AE93B4
+ */
+
+header {
+    background-color: #AE93B4;
+}
+
+body {
+    /*background-color: #CC978E;*/
+    background-image: url("img/tigrou.jpg");
+    text-align: center;
+    background-size: cover;
+}
+
+h1 , h2 {
+    font-family: Junegull, serif;
+    color: #CC978E;
+}
+
+.description {
+    font-family: Algerian, serif;
+    font-size: 2em;
+    color: #ddc1e0;
+}
+
+p, ul {
+    font-family: Montserrat, serif;
+    font-size: 1rem;
+    color: white;
+}
+
+ul {
+    list-style-image: url("img/icone-petit.png");
+    list-style-position: inside;
+}
+
+a {
+    color: #35412f;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    background-color: pink;
+    color:black;
+    animation: ease-in-out;
+}
+
+.icone {
+    width: 400px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 5px 5px black;
+}
+
+.icone:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
